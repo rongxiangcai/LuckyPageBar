@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D8FDAA1D35D7E500D2B976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDA91D35D7E500D2B976 /* main.m */; };
+		04D8FDAD1D35D7E500D2B976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDAC1D35D7E500D2B976 /* AppDelegate.m */; };
+		04D8FDB51D35D7E500D2B976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDB41D35D7E500D2B976 /* Assets.xcassets */; };
+		04D8FDB81D35D7E500D2B976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDB61D35D7E500D2B976 /* LaunchScreen.storyboard */; };
+		04D8FDC31D35D7E500D2B976 /* LuckyPageBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDC21D35D7E500D2B976 /* LuckyPageBarTests.m */; };
+		04D8FDCE1D35D7E500D2B976 /* LuckyPageBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDCD1D35D7E500D2B976 /* LuckyPageBarUITests.m */; };
+		04D8FDDF1D35DC1B00D2B976 /* LuckyBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDDD1D35DC1B00D2B976 /* LuckyBaseController.m */; };
+		04D8FDE01D35DC1B00D2B976 /* LuckyBaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDDE1D35DC1B00D2B976 /* LuckyBaseController.xib */; };
+		04D8FDFA1D3611A700D2B976 /* luckyPageBar_left_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF21D3611A700D2B976 /* luckyPageBar_left_normal@2x.png */; };
+		04D8FDFB1D3611A700D2B976 /* luckyPageBar_left_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF31D3611A700D2B976 /* luckyPageBar_left_normal@3x.png */; };
+		04D8FDFC1D3611A700D2B976 /* luckyPageBar_left_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF41D3611A700D2B976 /* luckyPageBar_left_selected@2x.png */; };
+		04D8FDFD1D3611A700D2B976 /* luckyPageBar_left_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF51D3611A700D2B976 /* luckyPageBar_left_selected@3x.png */; };
+		04D8FDFE1D3611A700D2B976 /* luckyPageBar_right_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF61D3611A700D2B976 /* luckyPageBar_right_normal@2x.png */; };
+		04D8FDFF1D3611A700D2B976 /* luckyPageBar_right_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF71D3611A700D2B976 /* luckyPageBar_right_normal@3x.png */; };
+		04D8FE001D3611A700D2B976 /* luckyPageBar_right_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF81D3611A700D2B976 /* luckyPageBar_right_selected@2x.png */; };
+		04D8FE011D3611A700D2B976 /* luckyPageBar_right_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF91D3611A700D2B976 /* luckyPageBar_right_selected@3x.png */; };
+		04D8FE151D362B0000D2B976 /* TableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FE131D362B0000D2B976 /* TableViewController1.m */; };
+		04D8FE161D362B0000D2B976 /* TableViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FE141D362B0000D2B976 /* TableViewController1.xib */; };
+		04D8FE1A1D362B1600D2B976 /* TableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FE181D362B1600D2B976 /* TableViewController2.m */; };
+		04D8FE1B1D362B1600D2B976 /* TableViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FE191D362B1600D2B976 /* TableViewController2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D8FDBF1D35D7E500D2B976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D8FD9D1D35D7E400D2B976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D8FDA41D35D7E400D2B976;
+			remoteInfo = LuckyPageBar;
+		};
+		04D8FDCA1D35D7E500D2B976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D8FD9D1D35D7E400D2B976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D8FDA41D35D7E400D2B976;
+			remoteInfo = LuckyPageBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D8FDA51D35D7E400D2B976 /* LuckyPageBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyPageBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D8FDA91D35D7E500D2B976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D8FDAB1D35D7E500D2B976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D8FDAC1D35D7E500D2B976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D8FDB41D35D7E500D2B976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D8FDB71D35D7E500D2B976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D8FDB91D35D7E500D2B976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D8FDBE1D35D7E500D2B976 /* LuckyPageBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyPageBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D8FDC21D35D7E500D2B976 /* LuckyPageBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyPageBarTests.m; sourceTree = "<group>"; };
+		04D8FDC41D35D7E500D2B976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D8FDC91D35D7E500D2B976 /* LuckyPageBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyPageBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D8FDCD1D35D7E500D2B976 /* LuckyPageBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyPageBarUITests.m; sourceTree = "<group>"; };
+		04D8FDCF1D35D7E500D2B976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D8FDDC1D35DC1B00D2B976 /* LuckyBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyBaseController.h; sourceTree = "<group>"; };
+		04D8FDDD1D35DC1B00D2B976 /* LuckyBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyBaseController.m; sourceTree = "<group>"; };
+		04D8FDDE1D35DC1B00D2B976 /* LuckyBaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LuckyBaseController.xib; sourceTree = "<group>"; };
+		04D8FDF21D3611A700D2B976 /* luckyPageBar_left_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_left_normal@2x.png"; sourceTree = "<group>"; };
+		04D8FDF31D3611A700D2B976 /* luckyPageBar_left_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_left_normal@3x.png"; sourceTree = "<group>"; };
+		04D8FDF41D3611A700D2B976 /* luckyPageBar_left_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_left_selected@2x.png"; sourceTree = "<group>"; };
+		04D8FDF51D3611A700D2B976 /* luckyPageBar_left_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_left_selected@3x.png"; sourceTree = "<group>"; };
+		04D8FDF61D3611A700D2B976 /* luckyPageBar_right_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_normal@2x.png"; sourceTree = "<group>"; };
+		04D8FDF71D3611A700D2B976 /* luckyPageBar_right_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_normal@3x.png"; sourceTree = "<group>"; };
+		04D8FDF81D3611A700D2B976 /* luckyPageBar_right_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_selected@2x.png"; sourceTree = "<group>"; };
+		04D8FDF91D3611A700D2B976 /* luckyPageBar_right_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_selected@3x.png"; sourceTree = "<group>"; };
+		04D8FE121D362B0000D2B976 /* TableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController1.h; sourceTree = "<group>"; };
+		04D8FE131D362B0000D2B976 /* TableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController1.m; sourceTree = "<group>"; };
+		04D8FE141D362B0000D2B976 /* TableViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController1.xib; sourceTree = "<group>"; };
+		04D8FE171D362B1600D2B976 /* TableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController2.h; sourceTree = "<group>"; };
+		04D8FE181D362B1600D2B976 /* TableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController2.m; sourceTree = "<group>"; };
+		04D8FE191D362B1600D2B976 /* TableViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D8FDA21D35D7E400D2B976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D8FDBB1D35D7E500D2B976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D8FDC61D35D7E500D2B976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D8FD9C1D35D7E400D2B976 = {
+			isa = PBXGroup;
+			children = (
+				04D8FDA71D35D7E500D2B976 /* LuckyPageBar */,
+				04D8FDC11D35D7E500D2B976 /* LuckyPageBarTests */,
+				04D8FDCC1D35D7E500D2B976 /* LuckyPageBarUITests */,
+				04D8FDA61D35D7E400D2B976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D8FDA61D35D7E400D2B976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDA51D35D7E400D2B976 /* LuckyPageBar.app */,
+				04D8FDBE1D35D7E500D2B976 /* LuckyPageBarTests.xctest */,
+				04D8FDC91D35D7E500D2B976 /* LuckyPageBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D8FDA71D35D7E500D2B976 /* LuckyPageBar */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDDB1D35DB0500D2B976 /* lucky */,
+				04D8FE111D362AD800D2B976 /* childControllers */,
+				04D8FDE11D35F38800D2B976 /* picture */,
+				04D8FDAB1D35D7E500D2B976 /* AppDelegate.h */,
+				04D8FDAC1D35D7E500D2B976 /* AppDelegate.m */,
+				04D8FDB41D35D7E500D2B976 /* Assets.xcassets */,
+				04D8FDB61D35D7E500D2B976 /* LaunchScreen.storyboard */,
+				04D8FDB91D35D7E500D2B976 /* Info.plist */,
+				04D8FDA81D35D7E500D2B976 /* Supporting Files */,
+			);
+			path = LuckyPageBar;
+			sourceTree = "<group>";
+		};
+		04D8FDA81D35D7E500D2B976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDA91D35D7E500D2B976 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D8FDC11D35D7E500D2B976 /* LuckyPageBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDC21D35D7E500D2B976 /* LuckyPageBarTests.m */,
+				04D8FDC41D35D7E500D2B976 /* Info.plist */,
+			);
+			path = LuckyPageBarTests;
+			sourceTree = "<group>";
+		};
+		04D8FDCC1D35D7E500D2B976 /* LuckyPageBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDCD1D35D7E500D2B976 /* LuckyPageBarUITests.m */,
+				04D8FDCF1D35D7E500D2B976 /* Info.plist */,
+			);
+			path = LuckyPageBarUITests;
+			sourceTree = "<group>";
+		};
+		04D8FDDB1D35DB0500D2B976 /* lucky */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDDC1D35DC1B00D2B976 /* LuckyBaseController.h */,
+				04D8FDDD1D35DC1B00D2B976 /* LuckyBaseController.m */,
+				04D8FDDE1D35DC1B00D2B976 /* LuckyBaseController.xib */,
+			);
+			path = lucky;
+			sourceTree = "<group>";
+		};
+		04D8FDE11D35F38800D2B976 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FDF21D3611A700D2B976 /* luckyPageBar_left_normal@2x.png */,
+				04D8FDF31D3611A700D2B976 /* luckyPageBar_left_normal@3x.png */,
+				04D8FDF41D3611A700D2B976 /* luckyPageBar_left_selected@2x.png */,
+				04D8FDF51D3611A700D2B976 /* luckyPageBar_left_selected@3x.png */,
+				04D8FDF61D3611A700D2B976 /* luckyPageBar_right_normal@2x.png */,
+				04D8FDF71D3611A700D2B976 /* luckyPageBar_right_normal@3x.png */,
+				04D8FDF81D3611A700D2B976 /* luckyPageBar_right_selected@2x.png */,
+				04D8FDF91D3611A700D2B976 /* luckyPageBar_right_selected@3x.png */,
+			);
+			path = picture;
+			sourceTree = "<group>";
+		};
+		04D8FE111D362AD800D2B976 /* childControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04D8FE121D362B0000D2B976 /* TableViewController1.h */,
+				04D8FE131D362B0000D2B976 /* TableViewController1.m */,
+				04D8FE141D362B0000D2B976 /* TableViewController1.xib */,
+				04D8FE171D362B1600D2B976 /* TableViewController2.h */,
+				04D8FE181D362B1600D2B976 /* TableViewController2.m */,
+				04D8FE191D362B1600D2B976 /* TableViewController2.xib */,
+			);
+			path = childControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D8FDA41D35D7E400D2B976 /* LuckyPageBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D8FDD21D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBar" */;
+			buildPhases = (
+				04D8FDA11D35D7E400D2B976 /* Sources */,
+				04D8FDA21D35D7E400D2B976 /* Frameworks */,
+				04D8FDA31D35D7E400D2B976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyPageBar;
+			productName = LuckyPageBar;
+			productReference = 04D8FDA51D35D7E400D2B976 /* LuckyPageBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D8FDBD1D35D7E500D2B976 /* LuckyPageBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D8FDD51D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBarTests" */;
+			buildPhases = (
+				04D8FDBA1D35D7E500D2B976 /* Sources */,
+				04D8FDBB1D35D7E500D2B976 /* Frameworks */,
+				04D8FDBC1D35D7E500D2B976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D8FDC01D35D7E500D2B976 /* PBXTargetDependency */,
+			);
+			name = LuckyPageBarTests;
+			productName = LuckyPageBarTests;
+			productReference = 04D8FDBE1D35D7E500D2B976 /* LuckyPageBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D8FDC81D35D7E500D2B976 /* LuckyPageBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D8FDD81D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBarUITests" */;
+			buildPhases = (
+				04D8FDC51D35D7E500D2B976 /* Sources */,
+				04D8FDC61D35D7E500D2B976 /* Frameworks */,
+				04D8FDC71D35D7E500D2B976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D8FDCB1D35D7E500D2B976 /* PBXTargetDependency */,
+			);
+			name = LuckyPageBarUITests;
+			productName = LuckyPageBarUITests;
+			productReference = 04D8FDC91D35D7E500D2B976 /* LuckyPageBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D8FD9D1D35D7E400D2B976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shxl;
+				TargetAttributes = {
+					04D8FDA41D35D7E400D2B976 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04D8FDBD1D35D7E500D2B976 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04D8FDA41D35D7E400D2B976;
+					};
+					04D8FDC81D35D7E500D2B976 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04D8FDA41D35D7E400D2B976;
+					};
+				};
+			};
+			buildConfigurationList = 04D8FDA01D35D7E400D2B976 /* Build configuration list for PBXProject "LuckyPageBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D8FD9C1D35D7E400D2B976;
+			productRefGroup = 04D8FDA61D35D7E400D2B976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D8FDA41D35D7E400D2B976 /* LuckyPageBar */,
+				04D8FDBD1D35D7E500D2B976 /* LuckyPageBarTests */,
+				04D8FDC81D35D7E500D2B976 /* LuckyPageBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D8FDA31D35D7E400D2B976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8FDB81D35D7E500D2B976 /* LaunchScreen.storyboard in Resources */,
+				04D8FDFD1D3611A700D2B976 /* luckyPageBar_left_selected@3x.png in Resources */,
+				04D8FDFB1D3611A700D2B976 /* luckyPageBar_left_normal@3x.png in Resources */,
+				04D8FDFE1D3611A700D2B976 /* luckyPageBar_right_normal@2x.png in Resources */,
+				04D8FDFC1D3611A700D2B976 /* luckyPageBar_left_selected@2x.png in Resources */,
+				04D8FE001D3611A700D2B976 /* luckyPageBar_right_selected@2x.png in Resources */,
+				04D8FE161D362B0000D2B976 /* TableViewController1.xib in Resources */,
+				04D8FDFA1D3611A700D2B976 /* luckyPageBar_left_normal@2x.png in Resources */,
+				04D8FDFF1D3611A700D2B976 /* luckyPageBar_right_normal@3x.png in Resources */,
+				04D8FDB51D35D7E500D2B976 /* Assets.xcassets in Resources */,
+				04D8FE1B1D362B1600D2B976 /* TableViewController2.xib in Resources */,
+				04D8FDE01D35DC1B00D2B976 /* LuckyBaseController.xib in Resources */,
+				04D8FE011D3611A700D2B976 /* luckyPageBar_right_selected@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D8FDBC1D35D7E500D2B976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D8FDC71D35D7E500D2B976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D8FDA11D35D7E400D2B976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8FDAD1D35D7E500D2B976 /* AppDelegate.m in Sources */,
+				04D8FDAA1D35D7E500D2B976 /* main.m in Sources */,
+				04D8FDDF1D35DC1B00D2B976 /* LuckyBaseController.m in Sources */,
+				04D8FE1A1D362B1600D2B976 /* TableViewController2.m in Sources */,
+				04D8FE151D362B0000D2B976 /* TableViewController1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D8FDBA1D35D7E500D2B976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8FDC31D35D7E500D2B976 /* LuckyPageBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D8FDC51D35D7E500D2B976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8FDCE1D35D7E500D2B976 /* LuckyPageBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D8FDC01D35D7E500D2B976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D8FDA41D35D7E400D2B976 /* LuckyPageBar */;
+			targetProxy = 04D8FDBF1D35D7E500D2B976 /* PBXContainerItemProxy */;
+		};
+		04D8FDCB1D35D7E500D2B976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D8FDA41D35D7E400D2B976 /* LuckyPageBar */;
+			targetProxy = 04D8FDCA1D35D7E500D2B976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D8FDB61D35D7E500D2B976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D8FDB71D35D7E500D2B976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D8FDD01D35D7E500D2B976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D8FDD11D35D7E500D2B976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D8FDD31D35D7E500D2B976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyPageBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckyPageBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04D8FDD41D35D7E500D2B976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyPageBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckyPageBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04D8FDD61D35D7E500D2B976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckyPageBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckyPageBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyPageBar.app/LuckyPageBar";
+			};
+			name = Debug;
+		};
+		04D8FDD71D35D7E500D2B976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckyPageBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckyPageBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyPageBar.app/LuckyPageBar";
+			};
+			name = Release;
+		};
+		04D8FDD91D35D7E500D2B976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckyPageBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckyPageBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckyPageBar;
+			};
+			name = Debug;
+		};
+		04D8FDDA1D35D7E500D2B976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckyPageBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckyPageBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckyPageBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D8FDA01D35D7E400D2B976 /* Build configuration list for PBXProject "LuckyPageBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D8FDD01D35D7E500D2B976 /* Debug */,
+				04D8FDD11D35D7E500D2B976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D8FDD21D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D8FDD31D35D7E500D2B976 /* Debug */,
+				04D8FDD41D35D7E500D2B976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D8FDD51D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D8FDD61D35D7E500D2B976 /* Debug */,
+				04D8FDD71D35D7E500D2B976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D8FDD81D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D8FDD91D35D7E500D2B976 /* Debug */,
+				04D8FDDA1D35D7E500D2B976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D8FD9D1D35D7E400D2B976 /* Project object */;
+}
