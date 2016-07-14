@@ -27,10 +27,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    TableViewController1 *child1 = [[TableViewController1 alloc] init];
-    TableViewController2 *child2 = [[TableViewController2 alloc] init];
-    [self addChildViewController:child1];
-    [self addChildViewController:child2];
+    if (self.controller1 == nil) {
+        TableViewController1 *child1 = [[TableViewController1 alloc] init];
+        TableViewController2 *child2 = [[TableViewController2 alloc] init];
+        [self addChildViewController:child1];
+        [self addChildViewController:child2];
+    }else{
+        [self addChildViewController:self.controller1];
+        [self addChildViewController:self.controller2];
+    }
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated{

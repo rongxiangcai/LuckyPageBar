@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *tabBarButton1;
 @property (weak, nonatomic) IBOutlet UIButton *tabBarButton2;
 @property (weak, nonatomic) IBOutlet UIView *contentView;
-
+@property (nonatomic, strong) UITableViewController *controller1;
+@property (nonatomic, strong) UITableViewController *controller2;
 @end
