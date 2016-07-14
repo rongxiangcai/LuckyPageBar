@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C864DD1D3760DB00D27F07 /* TableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864D81D3760DB00D27F07 /* TableViewController1.m */; };
+		04C864DE1D3760DB00D27F07 /* TableViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C864D91D3760DB00D27F07 /* TableViewController1.xib */; };
+		04C864DF1D3760DB00D27F07 /* TableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864DB1D3760DB00D27F07 /* TableViewController2.m */; };
+		04C864E01D3760DB00D27F07 /* TableViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C864DC1D3760DB00D27F07 /* TableViewController2.xib */; };
 		04D8FDAA1D35D7E500D2B976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDA91D35D7E500D2B976 /* main.m */; };
 		04D8FDAD1D35D7E500D2B976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FDAC1D35D7E500D2B976 /* AppDelegate.m */; };
 		04D8FDB51D35D7E500D2B976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDB41D35D7E500D2B976 /* Assets.xcassets */; };
@@ -23,10 +27,6 @@
 		04D8FDFF1D3611A700D2B976 /* luckyPageBar_right_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF71D3611A700D2B976 /* luckyPageBar_right_normal@3x.png */; };
 		04D8FE001D3611A700D2B976 /* luckyPageBar_right_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF81D3611A700D2B976 /* luckyPageBar_right_selected@2x.png */; };
 		04D8FE011D3611A700D2B976 /* luckyPageBar_right_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FDF91D3611A700D2B976 /* luckyPageBar_right_selected@3x.png */; };
-		04D8FE151D362B0000D2B976 /* TableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FE131D362B0000D2B976 /* TableViewController1.m */; };
-		04D8FE161D362B0000D2B976 /* TableViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FE141D362B0000D2B976 /* TableViewController1.xib */; };
-		04D8FE1A1D362B1600D2B976 /* TableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8FE181D362B1600D2B976 /* TableViewController2.m */; };
-		04D8FE1B1D362B1600D2B976 /* TableViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D8FE191D362B1600D2B976 /* TableViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C864D71D3760DB00D27F07 /* TableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController1.h; sourceTree = "<group>"; };
+		04C864D81D3760DB00D27F07 /* TableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController1.m; sourceTree = "<group>"; };
+		04C864D91D3760DB00D27F07 /* TableViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController1.xib; sourceTree = "<group>"; };
+		04C864DA1D3760DB00D27F07 /* TableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController2.h; sourceTree = "<group>"; };
+		04C864DB1D3760DB00D27F07 /* TableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController2.m; sourceTree = "<group>"; };
+		04C864DC1D3760DB00D27F07 /* TableViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController2.xib; sourceTree = "<group>"; };
 		04D8FDA51D35D7E400D2B976 /* LuckyPageBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyPageBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D8FDA91D35D7E500D2B976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D8FDAB1D35D7E500D2B976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,12 +77,6 @@
 		04D8FDF71D3611A700D2B976 /* luckyPageBar_right_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_normal@3x.png"; sourceTree = "<group>"; };
 		04D8FDF81D3611A700D2B976 /* luckyPageBar_right_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_selected@2x.png"; sourceTree = "<group>"; };
 		04D8FDF91D3611A700D2B976 /* luckyPageBar_right_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luckyPageBar_right_selected@3x.png"; sourceTree = "<group>"; };
-		04D8FE121D362B0000D2B976 /* TableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController1.h; sourceTree = "<group>"; };
-		04D8FE131D362B0000D2B976 /* TableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController1.m; sourceTree = "<group>"; };
-		04D8FE141D362B0000D2B976 /* TableViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController1.xib; sourceTree = "<group>"; };
-		04D8FE171D362B1600D2B976 /* TableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController2.h; sourceTree = "<group>"; };
-		04D8FE181D362B1600D2B976 /* TableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController2.m; sourceTree = "<group>"; };
-		04D8FE191D362B1600D2B976 /* TableViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				04D8FDDB1D35DB0500D2B976 /* lucky */,
-				04D8FE111D362AD800D2B976 /* childControllers */,
 				04D8FDE11D35F38800D2B976 /* picture */,
 				04D8FDAB1D35D7E500D2B976 /* AppDelegate.h */,
 				04D8FDAC1D35D7E500D2B976 /* AppDelegate.m */,
@@ -169,6 +168,12 @@
 		04D8FDDB1D35DB0500D2B976 /* lucky */ = {
 			isa = PBXGroup;
 			children = (
+				04C864D71D3760DB00D27F07 /* TableViewController1.h */,
+				04C864D81D3760DB00D27F07 /* TableViewController1.m */,
+				04C864D91D3760DB00D27F07 /* TableViewController1.xib */,
+				04C864DA1D3760DB00D27F07 /* TableViewController2.h */,
+				04C864DB1D3760DB00D27F07 /* TableViewController2.m */,
+				04C864DC1D3760DB00D27F07 /* TableViewController2.xib */,
 				04D8FDDC1D35DC1B00D2B976 /* LuckyBaseController.h */,
 				04D8FDDD1D35DC1B00D2B976 /* LuckyBaseController.m */,
 				04D8FDDE1D35DC1B00D2B976 /* LuckyBaseController.xib */,
@@ -189,19 +194,6 @@
 				04D8FDF91D3611A700D2B976 /* luckyPageBar_right_selected@3x.png */,
 			);
 			path = picture;
-			sourceTree = "<group>";
-		};
-		04D8FE111D362AD800D2B976 /* childControllers */ = {
-			isa = PBXGroup;
-			children = (
-				04D8FE121D362B0000D2B976 /* TableViewController1.h */,
-				04D8FE131D362B0000D2B976 /* TableViewController1.m */,
-				04D8FE141D362B0000D2B976 /* TableViewController1.xib */,
-				04D8FE171D362B1600D2B976 /* TableViewController2.h */,
-				04D8FE181D362B1600D2B976 /* TableViewController2.m */,
-				04D8FE191D362B1600D2B976 /* TableViewController2.xib */,
-			);
-			path = childControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,11 +305,11 @@
 				04D8FDFE1D3611A700D2B976 /* luckyPageBar_right_normal@2x.png in Resources */,
 				04D8FDFC1D3611A700D2B976 /* luckyPageBar_left_selected@2x.png in Resources */,
 				04D8FE001D3611A700D2B976 /* luckyPageBar_right_selected@2x.png in Resources */,
-				04D8FE161D362B0000D2B976 /* TableViewController1.xib in Resources */,
+				04C864DE1D3760DB00D27F07 /* TableViewController1.xib in Resources */,
 				04D8FDFA1D3611A700D2B976 /* luckyPageBar_left_normal@2x.png in Resources */,
 				04D8FDFF1D3611A700D2B976 /* luckyPageBar_right_normal@3x.png in Resources */,
 				04D8FDB51D35D7E500D2B976 /* Assets.xcassets in Resources */,
-				04D8FE1B1D362B1600D2B976 /* TableViewController2.xib in Resources */,
+				04C864E01D3760DB00D27F07 /* TableViewController2.xib in Resources */,
 				04D8FDE01D35DC1B00D2B976 /* LuckyBaseController.xib in Resources */,
 				04D8FE011D3611A700D2B976 /* luckyPageBar_right_selected@3x.png in Resources */,
 			);
@@ -347,8 +339,8 @@
 				04D8FDAD1D35D7E500D2B976 /* AppDelegate.m in Sources */,
 				04D8FDAA1D35D7E500D2B976 /* main.m in Sources */,
 				04D8FDDF1D35DC1B00D2B976 /* LuckyBaseController.m in Sources */,
-				04D8FE1A1D362B1600D2B976 /* TableViewController2.m in Sources */,
-				04D8FE151D362B0000D2B976 /* TableViewController1.m in Sources */,
+				04C864DF1D3760DB00D27F07 /* TableViewController2.m in Sources */,
+				04C864DD1D3760DB00D27F07 /* TableViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +558,7 @@
 				04D8FDD41D35D7E500D2B976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D8FDD51D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBarTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +567,7 @@
 				04D8FDD71D35D7E500D2B976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D8FDD81D35D7E500D2B976 /* Build configuration list for PBXNativeTarget "LuckyPageBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +576,7 @@
 				04D8FDDA1D35D7E500D2B976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
