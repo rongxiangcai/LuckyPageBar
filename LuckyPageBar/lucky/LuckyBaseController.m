@@ -7,8 +7,8 @@
 //
 
 #import "LuckyBaseController.h"
-#import "TableViewController1.h"
-#import "TableViewController2.h"
+//#import "TableViewController1.h"
+//#import "TableViewController2.h"
 
 @interface LuckyBaseController ()
 @property (nonatomic)UIButton *selectedBtn;
@@ -27,15 +27,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    if (self.controller1 == nil) {
-        TableViewController1 *child1 = [[TableViewController1 alloc] init];
-        TableViewController2 *child2 = [[TableViewController2 alloc] init];
-        [self addChildViewController:child1];
-        [self addChildViewController:child2];
-    }else{
-        [self addChildViewController:self.controller1];
-        [self addChildViewController:self.controller2];
-    }
+//    if (self.controller1 == nil) {
+//        TableViewController1 *child1 = [[TableViewController1 alloc] init];
+//        TableViewController2 *child2 = [[TableViewController2 alloc] init];
+//        [self addChildViewController:child1];
+//        [self addChildViewController:child2];
+//    }else{
+//        [self addChildViewController:self.controller1];
+//        [self addChildViewController:self.controller2];
+//    }
+    [self addChildViewController:self.controller1];
+    [self addChildViewController:self.controller2];
     
 }
 
