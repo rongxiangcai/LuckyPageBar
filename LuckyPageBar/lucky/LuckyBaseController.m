@@ -11,7 +11,7 @@
 //#import "TableViewController2.h"
 
 @interface LuckyBaseController ()
-@property (nonatomic)UIButton *selectedBtn;
+@property (nonatomic, strong)UIButton *selectedBtn;
 @end
 
 @implementation LuckyBaseController
